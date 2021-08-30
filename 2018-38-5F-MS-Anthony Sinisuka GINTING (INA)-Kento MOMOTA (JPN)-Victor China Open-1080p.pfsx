@@ -16,11 +16,8 @@
     <pref key="MultiTierViewer.ActiveTierName">
         <String>Points</String>
     </pref>
-    <pref key="LayoutManager.MediaAreaHeight">
-        <Int>324</Int>
-    </pref>
     <pref key="SelectionEndTime">
-        <Long>2662018</Long>
+        <Long>4347040</Long>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
@@ -69,20 +66,20 @@
         <String>Creation Date</String>
         <String>Modification Date</String>
     </prefList>
-    <pref key="GridViewer.TierName">
-        <String>Points</String>
-    </pref>
     <pref key="ActiveRecognizerName">
         <String>AAM-LR Phone level audio segmentation</String>
     </pref>
+    <pref key="GridViewer.TierName">
+        <String>Points</String>
+    </pref>
     <pref key="FrameLocation">
-        <Object class="java.awt.Point">1080,779</Object>
+        <Object class="java.awt.Point">1080,403</Object>
     </pref>
     <pref key="TimeLineViewer.ZoomLevel">
-        <Float>230.99997</Float>
+        <Float>150.99997</Float>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>2649906</Long>
+        <Long>4338880</Long>
     </pref>
     <prefGroup key="AAM-LR Phone level audio segmentation">
         <pref key="base_url">
@@ -90,24 +87,24 @@
         </pref>
     </prefGroup>
     <pref key="TimeScaleBeginTime">
-        <Long>2649837</Long>
+        <Long>4337080</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>2653161</Long>
+        <Long>4343046</Long>
     </pref>
     <prefGroup key="TierColors">
         <pref key="Points">
-            <Object class="java.awt.Color">90,90,0</Object>
+            <Object class="java.awt.Color">90,0,0</Object>
         </pref>
     </prefGroup>
     <prefList key="MultiTierViewer.TierOrder">
         <String>Points</String>
         <String>Strokes</String>
-        <String>Camera</String>
         <String>Visibility</String>
-        <String>Momota-Incomplete-Strokes</String>
-        <String>Ginting-Incomplete-Strokes</String>
         <String>Errors</String>
+        <String>Camera</String>
+        <String>Ginting-Incomplete-Strokes</String>
+        <String>Momota-Incomplete-Strokes</String>
     </prefList>
     <pref key="LayoutManager.SplitPaneDividerLocation">
         <Int>1</Int>
