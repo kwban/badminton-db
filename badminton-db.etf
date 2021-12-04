@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-04T13:01:17+08:00"
+    FORMAT="3.0" VERSION="3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds"/>
+    <TIME_ORDER/>
+    <TIER ANNOTATOR="William Ban" LINGUISTIC_TYPE_REF="Point"
+        PARTICIPANT="All Players" TIER_ID="Points"/>
+    <TIER ANNOTATOR="William Ban"
+        LINGUISTIC_TYPE_REF="Stroke-IncludedIn" PARENT_REF="Points"
+        PARTICIPANT="All Players" TIER_ID="Strokes"/>
+    <TIER ANNOTATOR="William Ban" LINGUISTIC_TYPE_REF="Visibility"
+        PARENT_REF="Points" PARTICIPANT="All Players" TIER_ID="Visibility"/>
+    <TIER ANNOTATOR="William Ban" LINGUISTIC_TYPE_REF="Error"
+        PARENT_REF="Points" PARTICIPANT="Not Applicable" TIER_ID="Errors"/>
+    <TIER ANNOTATOR="William Ban" LINGUISTIC_TYPE_REF="Camera"
+        PARENT_REF="Points" PARTICIPANT="All Players" TIER_ID="Camera"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="Point" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="Player" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Time_Subdivision"
+        CONTROLLED_VOCABULARY_REF="Stroke CV" GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="Stroke" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Included_In"
+        CONTROLLED_VOCABULARY_REF="Stroke CV" GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="Stroke-IncludedIn" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Included_In"
+        CONTROLLED_VOCABULARY_REF="Stroke CV" GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="Hit" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Included_In"
+        CONTROLLED_VOCABULARY_REF="Camera CV" GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="Camera" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Time_Subdivision"
+        CONTROLLED_VOCABULARY_REF="Visible CV"
+        GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Visibility" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Included_In"
+        CONTROLLED_VOCABULARY_REF="Error CV" GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="Error" TIME_ALIGNABLE="true"/>
+    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001"
+        LANG_ID="und" LANG_LABEL="undetermined (und)"/>
+    <CONSTRAINT
+        DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT
+        DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT
+        DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+    <CONTROLLED_VOCABULARY CV_ID="Camera CV">
+        <DESCRIPTION LANG_REF="und">Describes the viewpoint of the camera that captures the match.</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid_89902ab1-484e-4d84-8cc9-416ef395c1f2">
+            <CVE_VALUE
+                DESCRIPTION="Camera is viewing from a corner of the court." LANG_REF="und">Corner View</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_48e4dc73-0cd6-49a8-afe3-dca652aaa086">
+            <CVE_VALUE DESCRIPTION="Camera is focusing on a player." LANG_REF="und">Player Focus View</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_3f26b9d3-da42-4d82-8fc5-f98a1fffe0b9">
+            <CVE_VALUE
+                DESCRIPTION="Camera is viewing from the judges' side of the court." LANG_REF="und">Side View</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Stroke CV">
+        <DESCRIPTION LANG_REF="und">A hitting action performed by the player.</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid_ae4effce-6fd7-4d41-b719-7ba60cd69e4a">
+            <CVE_VALUE DESCRIPTION="A hit that causes a fault" LANG_REF="und">*FAULT*</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_87b4e1a2-bf98-4467-a90d-f9c786c0eb97">
+            <CVE_VALUE LANG_REF="und">Block</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_781a2c42-e6a0-4070-a3f3-3d8248e7ff53">
+            <CVE_VALUE DESCRIPTION="Backhand Block" LANG_REF="und">Block (Bh)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_7b8ebac6-5896-499d-877d-476f97eddbed">
+            <CVE_VALUE LANG_REF="und">Clear</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_8be111e5-8c92-4fc1-b3b9-95b994e0154e">
+            <CVE_VALUE DESCRIPTION="Backhand Clear" LANG_REF="und">Clear (Bh)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_83f64ddb-3ae7-40c7-91a6-ceb5bb75ebbf">
+            <CVE_VALUE LANG_REF="und">Drive</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_94de4942-b78f-4024-b4c1-f57cffdbde21">
+            <CVE_VALUE DESCRIPTION="Backhand Drive" LANG_REF="und">Drive (Bh)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_95da7cfd-cb30-4df3-990e-e0bd001e80f6">
+            <CVE_VALUE LANG_REF="und">Dropshot</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_e0923d1e-84fc-4bb3-80d8-9583796df090">
+            <CVE_VALUE DESCRIPTION="Backhand Dropshot" LANG_REF="und">Dropshot (Bh)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_37a8f87d-c6d0-4076-a122-334b5d36d076">
+            <CVE_VALUE LANG_REF="und">Flick Serve</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_4372a77a-ddee-488d-a1e5-15bb9884466d">
+            <CVE_VALUE LANG_REF="und">Net Kill</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_1d0aee55-0a20-4c59-b46d-2efce8b9e3ee">
+            <CVE_VALUE DESCRIPTION="Backhand Net Kill" LANG_REF="und">Net Kill (Bh)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_696a0dc7-ee29-4433-b8c8-2afcc33499c1">
+            <CVE_VALUE DESCRIPTION="From forecourt to rearcourt" LANG_REF="und">Net Lift</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_f9cca576-8ff4-4255-81db-abe122c856e8">
+            <CVE_VALUE DESCRIPTION="Backhand Net Lift" LANG_REF="und">Net Lift (Bh)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_8eac5b2f-360d-4612-9aab-d955a88d6630">
+            <CVE_VALUE DESCRIPTION="A simple net shot" LANG_REF="und">Net Shot</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_b8690f63-c816-4908-ae0a-7fd85e43f14e">
+            <CVE_VALUE DESCRIPTION="Backhand Net Shot" LANG_REF="und">Net Shot (Bh)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_363d1c51-08be-470b-a133-5ea97d4ca82b">
+            <CVE_VALUE LANG_REF="und">Serve</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_eb03bd57-4d13-45ed-9c32-244fd34e35e4">
+            <CVE_VALUE LANG_REF="und">Smash</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_5c290f6d-0d96-4385-8d70-bb69e3057bed">
+            <CVE_VALUE DESCRIPTION="Backhand Smash" LANG_REF="und">Smash (Bh)</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_4e13f84f-46c2-478d-bc0b-0978bdc9e6fe">
+            <CVE_VALUE LANG_REF="und">end_fault</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_c51fad00-2fd3-4317-b0c2-60d2c12b0696">
+            <CVE_VALUE LANG_REF="und">end_lucky</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_1c3fa320-4781-4f30-b10c-545fccf666e5">
+            <CVE_VALUE LANG_REF="und">end_misjudge</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_bdefafb9-82fa-4cd5-a4d9-b49e92c7a8ce">
+            <CVE_VALUE LANG_REF="und">end_miss</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_462e3b09-29ac-480b-a6fc-b12d5cf9044e">
+            <CVE_VALUE LANG_REF="und">end_out</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_310972a8-6c99-45db-bcff-42c363ab203f">
+            <CVE_VALUE
+                DESCRIPTION="An unexpected error. Check Errors tier for details." LANG_REF="und">error-tier</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Error CV">
+        <DESCRIPTION LANG_REF="und">Indicates the type of error in a video segment that causes annotator unable to annotate.</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid_736c07ad-d6a8-4e96-9a1f-483f4ab1be1f">
+            <CVE_VALUE DESCRIPTION="e.g. video frame issues." LANG_REF="und">Error_BadVideo</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_d3209e7c-76df-4156-9880-b137a3db850f">
+            <CVE_VALUE
+                DESCRIPTION="The video segment does not contain enough information to determine its annotation" LANG_REF="und">Error_Incomplete</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_618a964b-dfb3-4cf5-b691-58159ffc2197">
+            <CVE_VALUE
+                DESCRIPTION="Indicates that the FIRST player (from the scoreboard) plays the first shot after an error." LANG_REF="und">Player-First</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_5c69cba0-0370-42e9-acc9-c254df62cd43">
+            <CVE_VALUE
+                DESCRIPTION="Indicates that the SECOND player (from the scoreboard) plays the first shot after an error." LANG_REF="und">Player-Second</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_71576d07-bb76-488f-9b25-c026950b0100">
+            <CVE_VALUE
+                DESCRIPTION="An error that does not fall under any error category prefixed with &quot;Error_&quot;" LANG_REF="und">Others</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+    <CONTROLLED_VOCABULARY CV_ID="Visible CV">
+        <DESCRIPTION LANG_REF="und">Tells if a point / rally is completely visible.
+
+A point is considered visible if all strokes in the point, from Serve to Ending, is recognizable regardless of Camera view.</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid_49a6e88a-0717-4a61-8ce9-dc0f3f394e33">
+            <CVE_VALUE LANG_REF="und">Visible</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_0c4cc454-2973-4205-8f93-8e41a622618e">
+            <CVE_VALUE LANG_REF="und">Partially Visible</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid_0ed26e2c-6242-452c-a3ea-ed86fd39b255">
+            <CVE_VALUE LANG_REF="und">Not Visible</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+</ANNOTATION_DOCUMENT>
