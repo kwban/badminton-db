@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-04T13:01:17+08:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2021-12-04T14:25:58+08:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds"/>
@@ -15,6 +15,8 @@
         PARENT_REF="Points" PARTICIPANT="Not Applicable" TIER_ID="Errors"/>
     <TIER ANNOTATOR="William Ban" LINGUISTIC_TYPE_REF="Camera"
         PARENT_REF="Points" PARTICIPANT="All Players" TIER_ID="Camera"/>
+    <TIER ANNOTATOR="William Ban" LINGUISTIC_TYPE_REF="Serve-Receive"
+        PARTICIPANT="All Players" TIER_ID="Serve-Receive"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
         LINGUISTIC_TYPE_ID="Point" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
@@ -37,6 +39,8 @@
     <LINGUISTIC_TYPE CONSTRAINTS="Included_In"
         CONTROLLED_VOCABULARY_REF="Error CV" GRAPHIC_REFERENCES="false"
         LINGUISTIC_TYPE_ID="Error" TIME_ALIGNABLE="true"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false"
+        LINGUISTIC_TYPE_ID="Serve-Receive" TIME_ALIGNABLE="true"/>
     <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001"
         LANG_ID="und" LANG_LABEL="undetermined (und)"/>
     <CONSTRAINT
