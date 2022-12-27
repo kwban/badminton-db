@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-03-18T10:30:43+08:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2022-12-24T14:55:29+08:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
-            MEDIA_URL="file:///D:/Research/PhD/Dataset/downloaded_videos/2019-43-3QF-MS-Anthony Sinisuka GINTING (INA)-Kento Momota (JPN)-YONEX French Open-1080p-50fps.mp4"
-            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./downloaded_videos/2019-43-3QF-MS-Anthony Sinisuka GINTING (INA)-Kento Momota (JPN)-YONEX French Open-1080p-50fps.mp4"/>
+            MEDIA_URL="video_path"
+            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="video_path"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:d4710d95-d73f-4d52-a550-7c643308cf4a</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">906</PROPERTY>
     </HEADER>
