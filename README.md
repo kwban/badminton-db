@@ -6,6 +6,20 @@ A project to annotate badminton videos with data suited for tactical analysis. T
 
 [BadmintonDB: A Badminton Dataset for Player-specific Match Analysis and Prediction](https://dl.acm.org/doi/abs/10.1145/3552437.3555696)
 
+##### Videos (YouTube)
+
+| **Match**                                                                                                                                  |
+| :----------------------------------------------------------------------------------------------------------------------------------------- |
+| [2018-27-2R16-MS-Anthony Sinisuka GINTING (INA)-Kento MOMOTA (JPN)-BLIBLI Indonesia Open](https://www.youtube.com/watch?v=YKjJVB3d860)     |
+| [2018-38-5F-MS-Anthony Sinisuka GINTING (INA)-Kento MOMOTA (JPN)-Victor China Open](https://www.youtube.com/watch?v=3mMzr0Rc94c)           |
+| [2019-04-3QF-MS-Anthony Sinisuka GINTING (INA)-Kento MOMOTA (JPN)-Daihatsu Indonesia Masters](https://www.youtube.com/watch?v=KDRdcHx3dmI) |
+| [2019-15-5F-MS-Anthony Sinisuka GINTING (INA)-Kento MOMOTA (JPN)-Singapore Open 2019](https://youtu.be/KkwNopIQkP4)                        |
+| [2019-20-6SF-MS-Anthony Sinisuka GINTING (INA)-Kento MOMOTA (JPN)-Sudirman Cup](https://youtu.be/1kZwH8SU4BQ)                              |
+| [2019-30-3QF-MS-Anthony Sinisuka GINTING (INA)-Kento MOMOTA (JPN)-Daihatsu Yonex Japan Open](https://youtu.be/YfyTSydRknQ)                 |
+| [2019-38-5F-MS-Anthony Sinisuka GINTING (INA)-Kento MOMOTA (JPN)-Victor China Open](https://youtu.be/zPAuJIkpR3k)                          |
+| [2019-43-3QF-MS-Anthony Sinisuka GINTING (INA)-Kento Momota (JPN)-YONEX French Open](https://www.youtube.com/watch?v=MkBe-khRTNs)          |
+| [2019-50-5F-MS-Anthony Sinisuka GINTING (INA)-Kento MOMOTA (JPN)-HSBC BWF World Tour Finals](https://www.youtube.com/watch?v=-vBEdAfSX4w)  |
+
 ##### EAF
 
 Using ELAN annotation tool, the annotated info (tier) are (to update on the table):
