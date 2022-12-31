@@ -33,16 +33,14 @@ Using ELAN annotation tool, the annotated info (tier) are (to update on the tabl
 | Camera          | Describes the viewpoint of the camera that captures the match.                                                                                                                                                              |
 | Service-Receive | Describes the location of players and the beginning server and receiver on the court. <br> Eg: T1P1S: T2P1R means Team 1 Player 1 serves at the top of the court while Team 2 Player 1 receives at the bottom of the court. |
 
-#### JSON (to update)
+#### JSON
 
 A transformed format from EAF to fit our own needs, the info is being structured as follows:
 
 ```json
 "VideoInfo": {
-    "Camera": ,
     "Visibility": ,
     "Error": ,
-    "StrokeError":
 },
 "PointInfo": {
     "PointBegin": ,
@@ -65,7 +63,12 @@ A transformed format from EAF to fit our own needs, the info is being structured
         "Location":
     },
     "Rally": {
-
+        "StrokeNum":,
+        "Player":,
+        "Camera",
+        "StrokeBegin",
+        "StrokeEnd",
+        "StrokeType" # key will be StrokeError if the value is error-tier
     }
 }
 ```
