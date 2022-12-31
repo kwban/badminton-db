@@ -65,10 +65,10 @@ A transformed format from EAF to fit our own needs, the info is being structured
     "Rally": {
         "StrokeNum":,
         "Player":,
-        "Camera",
-        "StrokeBegin",
-        "StrokeEnd",
-        "StrokeType" # key will be StrokeError if the value is error-tier
+        "Camera":,
+        "StrokeBegin":,
+        "StrokeEnd":,
+        "StrokeType": # key will be StrokeError if the value is error-tier
     }
 }
 ```
