@@ -4,8 +4,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
-            MEDIA_URL="video_path"
-            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="video_path"/>
+            MEDIA_URL=""
+            MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL=""/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:65606a93-cd5e-4a36-9ac2-ad3ff413a710</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">1727</PROPERTY>
     </HEADER>
