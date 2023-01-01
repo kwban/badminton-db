@@ -22,7 +22,7 @@ A project to annotate badminton videos with data suited for tactical analysis. T
 
 ##### EAF
 
-Using ELAN annotation tool, the annotated info (tier) are (to update on the table):
+Using ELAN annotation tool, the annotated info (tier) are:
 
 | **Tier**        | **Description**                                                                                                                                                                                                             |
 | :-------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -32,6 +32,8 @@ Using ELAN annotation tool, the annotated info (tier) are (to update on the tabl
 | Errors          | Indicates the type of error in a video segment that causes the annotator to be unable to annotate.                                                                                                                          |
 | Camera          | Describes the viewpoint of the camera that captures the match.                                                                                                                                                              |
 | Service-Receive | Describes the location of players and the beginning server and receiver on the court. <br> Eg: T1P1S: T2P1R means Team 1 Player 1 serves at the top of the court while Team 2 Player 1 receives at the bottom of the court. |
+
+For current 9 videos, T1 is refering to Ginting while T2 is refering to Momota.
 
 #### JSON
 
